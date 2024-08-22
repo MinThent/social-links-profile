@@ -12,7 +12,7 @@ export default function SocialCard(props) {
         {socialLinksList.map((socialLink, socialLinkIndex) => {
             return (
                 <SocialLinks key={socialLinkIndex}>
-                    <p>{socialLink}</p>
+                    <a>{socialLink}</a>
                 </SocialLinks>
             )
         })}
